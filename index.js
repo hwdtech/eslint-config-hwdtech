@@ -36,12 +36,10 @@ module.exports = {
 
     'filenames/match-regex': ['error', '^[A-Za-z0-9\\.]+$'],
 
-    'jsx-a11y/no-static-element-interactions': 'off',
-    'jsx-a11y/no-noninteractive-element-interactions': 'off',
     'jsx-a11y/anchor-is-valid': [
       'error',
       {
-        components: ['Link', 'NavLink', 'a'],
+        components: ['Link', 'NavLink'],
         specialLink: ['to'],
         aspects: ['noHref', 'invalidHref', 'preferButton']
       }
