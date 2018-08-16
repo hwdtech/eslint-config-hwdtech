@@ -1,5 +1,5 @@
 {
-  "name": "eslint-config-hwdtech",
+  "name": "@hwdtech/eslint-config",
   "version": "0.1.0",
   "description": "ESlint config shared between HWdTech react based projects",
   "main": "index.js",
