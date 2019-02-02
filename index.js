@@ -46,7 +46,7 @@ module.exports = {
     ],
 
     'react/require-default-props': 'off',
-    'react/no-danger': 'off',
+    'react/no-danger': 'error',
     'react/sort-comp': 'off',
     'react/jsx-closing-tag-location': 'error',
     'react/jsx-curly-spacing': ['error', { when: 'never', allowMultiline: true, children: true }],
